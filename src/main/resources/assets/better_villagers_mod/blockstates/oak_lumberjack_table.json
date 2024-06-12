@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "better_villagers_mod:block/oak_lumberjack_table"
+    },
+    "facing=east": {
+      "model": "better_villagers_mod:block/oak_lumberjack_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "better_villagers_mod:block/oak_lumberjack_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "better_villagers_mod:block/oak_lumberjack_table",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "better_villagers_mod:block/oak_lumberjack_table",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "better_villagers_mod:block/oak_lumberjack_table",
+      "x": 90
+    }
+  }
+}

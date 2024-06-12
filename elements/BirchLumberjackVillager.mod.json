@@ -1,0 +1,16 @@
+{
+  "_fv": 60,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Birch Lumberjack Villager",
+    "pointOfInterest": {
+      "value": "CUSTOM:BirchLumberjackTable"
+    },
+    "actionSound": {
+      "value": "block.wood.break"
+    },
+    "hat": "Partial",
+    "professionTextureFile": "villagerincroy.png",
+    "zombifiedProfessionTextureFile": "villagerincroy.png"
+  }
+}

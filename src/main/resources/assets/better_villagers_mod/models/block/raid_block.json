@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "better_villagers_mod:block/raid_block",
+    "up": "better_villagers_mod:block/iron_block",
+    "north": "better_villagers_mod:block/raid_block",
+    "east": "better_villagers_mod:block/raid_block",
+    "south": "better_villagers_mod:block/raid_block",
+    "west": "better_villagers_mod:block/raid_block",
+    "particle": "better_villagers_mod:block/raid_block"
+  },
+  "render_type": "solid"
+}

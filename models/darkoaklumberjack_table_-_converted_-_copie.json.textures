@@ -1,0 +1,17 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "black_concrete",
+        "1": "dark_oak_planks",
+        "2": "gray_concrete",
+        "3": "iron_block",
+        "4": "light_gray_wool",
+        "5": "dark_oak_log",
+        "6": "dark_oak_log_top",
+        "7": "dark_oak_planks"
+      },
+      "name": "default"
+    }
+  }
+}

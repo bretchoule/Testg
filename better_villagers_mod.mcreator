@@ -1,0 +1,262 @@
+{
+  "mod_elements": [
+    {
+      "name": "LumberjackTable",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_lumberjack_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_villagers_mod/loot_tables/blocks/oak_lumberjack_table.json",
+          "src/main/resources/assets/better_villagers_mod/blockstates/oak_lumberjack_table.json",
+          "src/main/resources/assets/better_villagers_mod/models/item/oak_lumberjack_table.json",
+          "src/main/java/net/mcreator/bettervillagersmod/block/LumberjackTableBlock.java",
+          "src/main/resources/assets/better_villagers_mod/models/block/oak_lumberjack_table.json"
+        ]
+      }
+    },
+    {
+      "name": "BetterVillagers",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "better_villagers",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "LumberjackVillager",
+      "type": "villagerprofession",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lumberjack_villager",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_villagers_mod/textures/entity/villager/profession/lumberjack_villager.png.mcmeta"
+        ]
+      }
+    },
+    {
+      "name": "LumberiackTable",
+      "type": "villagertrade",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lumberiack_table",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "OakLumberjackTable",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_lumberjack_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_villagers_mod/recipes/oak_lumberjack_table.json"
+        ]
+      }
+    },
+    {
+      "name": "BirchLumberjackTable",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_lumberjack_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_villagers_mod/models/block/birch_lumberjack_table.json",
+          "src/main/resources/data/better_villagers_mod/loot_tables/blocks/birch_lumberjack_table.json",
+          "src/main/resources/assets/better_villagers_mod/blockstates/birch_lumberjack_table.json",
+          "src/main/resources/assets/better_villagers_mod/models/item/birch_lumberjack_table.json",
+          "src/main/java/net/mcreator/bettervillagersmod/block/BirchLumberjackTableBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "LumberJackBiome",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lumber_jack_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bettervillagersmod/procedures/LumberJackBiomeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BirchLumberjackVillager",
+      "type": "villagerprofession",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_lumberjack_villager",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_villagers_mod/textures/entity/villager/profession/birch_lumberjack_villager.png.mcmeta"
+        ]
+      }
+    },
+    {
+      "name": "DarkOakLumejackTable",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_oak_lumejack_table",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bettervillagersmod/block/DarkOakLumejackTableBlock.java",
+          "src/main/resources/data/better_villagers_mod/loot_tables/blocks/dark_oak_lumejack_table.json",
+          "src/main/resources/assets/better_villagers_mod/models/item/dark_oak_lumejack_table.json",
+          "src/main/resources/assets/better_villagers_mod/models/block/dark_oak_lumejack_table.json",
+          "src/main/resources/assets/better_villagers_mod/blockstates/dark_oak_lumejack_table.json"
+        ]
+      }
+    },
+    {
+      "name": "RaidBlockProcedure",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raid_block_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bettervillagersmod/procedures/RaidBlockProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RaidBlock",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raid_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bettervillagersmod/block/RaidBlockBlock.java",
+          "src/main/resources/assets/better_villagers_mod/models/item/raid_block.json",
+          "src/main/resources/data/better_villagers_mod/loot_tables/blocks/raid_block.json",
+          "src/main/resources/assets/better_villagers_mod/blockstates/raid_block.json",
+          "src/main/resources/assets/better_villagers_mod/models/block/raid_block.json"
+        ]
+      }
+    },
+    {
+      "name": "RavageurTest",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ravageur_test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bettervillagersmod/procedures/RavageurTestProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:DarkOakLumejackTable",
+      "~CUSTOM:BirchLumberjackTable",
+      "~CUSTOM:LumberjackTable"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "block.better_villagers_mod.birch_lumberjack_table": "Brich Lumberjack Table ",
+      "block.better_villagers_mod.dark_oak_lumejack_table": "Dark Oak Lumberjack Table ",
+      "block.better_villagers_mod.raid_block": "Raid Block",
+      "entity.minecraft.villager.better_villagers_mod.birch_lumberjack_villager": "Birch Lumberjack Villager",
+      "block.better_villagers_mod.oak_lumberjack_table": "Oak Lumberjack Table ",
+      "item_group.better_villagers_mod.better_villagers": "Better Villagers",
+      "entity.minecraft.villager.better_villagers_mod.lumberjack_villager": "Lumberjack Villager"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "better_villagers_mod",
+    "modName": "Better Villagers Mod",
+    "version": "1.0.0",
+    "author": "matte, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.bettervillagersmod"
+  },
+  "mcreatorVersion": 202400118518
+}
